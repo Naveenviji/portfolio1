@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+<!--==========================================================font Awesom========================================================================-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<!--=========================================================css style sheet==================================================================-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--==========================================================style swicher====================================================================================================-->
+    <input type="radio" name="color" id="color-1">
+    <input type="radio" name="color" id="color-2">
+    <input type="radio" name="color" id="color-3">
+    <input type="radio" name="color" id="color-4">
+    <input type="radio" name="color" id="color-5">
+    <input type="radio" name="color" id="color-6">
+    <input type="radio" name="color" id="color-7">
+    <input type="radio" name="color" id="color-8">
+    <input type="radio" name="color" id="color-9">
+    <input type="radio" name="color" id="color-10">
+    <input type="checkbox" id="toggler">
+    <input type="checkbox" id="day-night">
+    <div class="style__switcher">
+        <label for="toggler" class="style__switcher-toggler">
+            <i class="fa-solid fa-gear fa-spin"></i>
+        </label>
+        <label for="day-night" class="style__switcher-theme">
+            <i class="fa-solid fa-sun"></i>
+            <i class="fa-solid fa-moon"></i>
+        </label>
+        <h3 class="style__switcher-title">Theme Colors</h3>
+        <div class="style__switcher-colors">
+            <label for="color-1" class="color-1 color"></label>
+            <label for="color-2" class="color-2 color"></label>
+            <label for="color-3" class="color-3 color"></label>
+            <label for="color-4" class="color-4 color"></label>
+            <label for="color-5" class="color-5 color"></label>
+            <label for="color-6" class="color-6 color"></label>
+            <label for="color-7" class="color-7 color"></label>
+            <label for="color-8" class="color-8 color"></label>
+            <label for="color-9" class="color-9 color"></label>
+            <label for="color-10" class="color-10 color"></label>
+        </div>
+    </div>
+<!--============================================================</Header>==================================================================-->
+    <header class="header">
+         <nav class=" nav container">
+            <a href="index.html" class="nav__logo">NAVEEN</a>
+            <input type="checkbox" id="nav-toggler">
+            <label for="nav-toggler" class="nav__toggle">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link  active-link" >Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">About</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#qualification" class="nav__link">Education</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#Skills" class="nav__link">Skills</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#portfolio" class="nav__link">Projects</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contacts" class="nav__link">Contacts</a>
+                </li>
+            </ul>
+       </nav>
+    </header>
+ <!--============================================================<main>=====================================================================-->
+        <main class="main">
+ <!--=============================================================HOME===========================================================================================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content">
+                        <span class="home__small">Hello</span>
+                        <h1 class="home__title">
+                            <span>I'm</span> Naveen <br>
+                            <span> Software Tester & Junior Web Developer</span></span>
+                        </h1>
+
+                        <p class="home__description">
+                            Aspiring Software Tester and Web Developer with a passion for coding, testing, 
+                            and continuous learning in pursuit of excellence.
+                        </p>
+
+                        <div class="home__btns">
+                            <a href="#contacts" class="btn">Hire Me</a>
+                            <a href="#Skills" class="btn btn--transparent">Skills</a>
+                        </div>
+                    </div>
+                    <div class="home__img-wrapper">
+                        <img src="portfolio_pic.png" alt="" class="home__img"  height="300" width="300">
+                    </div>
+                </div>
+            </section>
+ <!--=============================================================ABOUT================================================================================ -->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                <div class="about__img-wrapper">
+                    <img src="IMG_20240220_231548-removebg-preview.png" alt="" class="about__img" width="200" height="200">
+                </div>
+                <div class="about__content">
+                    <h2 class="section__title" data-title="Who am i?">Software Tester & Junior Web Developer
+                    </h2>
+
+                    <p class="about__description">As a recent B.Sc. Computer Science graduate, I have honed my skills through specialized training in software testing, 
+                         cultivating proficiency in Java, HTML, CSS, and SQL. My experience extends to utilizing tools such as Jira, Selenium WebDriver, 
+                         GitHub, and Jenkins. With a strong grasp of SDLC, TestNG, and Maven, I am poised to contribute effectively to projects from inception to deployment.
+                         Eager to immerse myself in a dynamic work environment, I am driven by the opportunity to apply my knowledge and skills to create reliable software solutions that meet and exceed expectations.
+                    </p>
+
+                    <ul class="about__data grid">
+                        <li class="data__item">
+                            <h3 class="data__title">Name:</h3>
+                            <span class="data__discription">Naveen</span>
+                        </li>
+                        <li class="data__item">
+                            <h3 class="data__title">Age:</h3>
+                            <span class="data__discription">20yrs</span>
+                        </li>
+                        <li class="data__item">
+                            <h3 class="data__title">From:</h3>
+                            <span class="data__discription">Chennai,India</span>
+                        </li>
+                        <li class="data__item">
+                            <h3 class="data__title">Email:</h3>
+                            <span class="data__discription about__link">contactnaveenoffl@gmail.com</span>
+                        </li>
+                        
+                    </ul>
+
+
+                    <div class="about__bottom">
+                        <a href="Naveenresume.pdf" download="" class="btn">Download CV</a>
+                        <div class="about__social-links">
+                            <a href="https://github.com/Naveenviji" class="footer__social-link">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="https://www.instagram.com/thestunning_naveen/" class="footer__social-link">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="https://leetcode.com/naveenr13062003/" class="footer__social-link">
+                                <i class="fa-brands fa-hackerrank"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/contactnaveenoffl/" class="footer__social-link">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>                    
+                </div>
+                </div>
+
+            </section>
+ <!--========================================================= QUALIFICATION ==============================================================-->
+            <section class="qualification section" id="qualification">
+                <h2 class="section__title title-center" data-title="My Journey">
+                    Qualification
+                </h2>
+                <div class="resume__container container grid">
+<!-- =========================================================EDUCATION-START======================================================================== -->
+                    <div class="resume__group">
+                        <h3 class="resume__heading">Education</h3>
+                        <div class="resume__items">
+                            <div class="resume__item">
+                                <div class="resume__header">
+                                    <h3 class="resume__subtitle  own_color">
+                                        Guru Nanak College - B.Sc Computer Science
+                                    </h3>
+                                    <!-- <span class="resume__icon">
+                                        +
+                                    </span> -->
+                                </div>
+                                <div class="resume__content">
+                                    <div class="resume__date-title">
+                                        <h3 class="resume__title"> University/Board - Autonomous</h3>
+                                        <span class="resume__date">CGPA - 8.189</span>
+                                    </div>
+                                    <p class="resume__description">
+                                        Major in Computer Science, Minor in Mathematics.<br>
+                                        Year of Passing - 2023
+                                    </p>
+                                </div>
+
+                            </div>
+
+
+                            <div class="resume__item">
+                                <div class="resume__header">
+                                    <h3 class="resume__subtitle own_color">
+                                        St. Joseph's Matriculation Higher Sec School - HSC 
+                                        
+                                    </h3>
+                                    <!-- <span class="resume__icon">
+                                        -
+                                    </span> -->
+                                </div>
+                                <div class="resume__content">
+                                    <div class="resume__date-title">
+                                        <h3 class="resume__title">University/Board - State</h3>
+                                        <span class="resume__date">Percentage - 58%</span>
+                                    </div>
+                                    <p class="resume__description">
+                                        Year of Passing - 2020
+                                    </p>
+                                  
+                                </div>
+
+                            </div>
+
+
+                            <div class="resume__item">
+                                <div class="resume__header">
+                                    <h3 class="resume__subtitle own_color">
+                                        St. Joseph's Matriculation Higher Sec School - SSLC 
+                                    </h3>
+                                    <!-- <span class="resume__icon">
+                                        +
+                                    </span> -->
+                                </div>
+                                <div class="resume__content">
+                                    <div class="resume__date-title">
+                                        <h3 class="resume__title">University/Board - State</h3>
+                                        <span class="resume__date">Percentage - 79%</span>
+                                    </div>
+                                    <p class="resume__description">
+                                        Year of Passing - 2018
+                                    </p>
+                                </div>
+
+                            </div>
+                           
+                        </div>
+                    </div>
+ <!-- =========================================================EDUCATION-END======================================================================== -->
+
+<!-- =========================================================EXPERIENCE-START======================================================================== -->
+                    <!-- <div class="resume__group">
+                        <h3 class="resume__heading">Education</h3>
+                        <div class="resume__items">
+                            <div class="resume__item">
+                                <div class="resume__header">
+                                    <h3 class="resume__subtitle">
+                                        CoderHOuse Course
+                                    </h3>
+                                    <span class="resume__icon">
+                                        +
+                                    </span>
+                                </div>
+                                <div class="resume__content">
+                                    <div class="resume__date-title">
+                                        <h3 class="resume__title">Backend Programming</h3>
+                                        <span class="resume__date">2020-2023</span>
+                                    </div>
+                                    <p class="resume__description">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                         Distinctio aperiam asperiores voluptatum, nisi pariatur sed iusto eveniet maxime delectus.
+                                          Porro minus cupiditate sint reprehenderit! Labore nulla dolor exercitationem tempore optio!
+                                    </p>
+                                </div>
+
+                            </div>
+
+
+                            <div class="resume__item">
+                                <div class="resume__header">
+                                    <h3 class="resume__subtitle">
+                                       Guru Nanak
+                                    </h3>
+                                    <span class="resume__icon">
+                                        -
+                                    </span>
+                                </div>
+                                <div class="resume__content">
+                                    <div class="resume__date-title">
+                                        <h3 class="resume__title">Java Programming</h3>
+                                        <span class="resume__date">2020-2023</span>
+                                    </div>
+                                    <p class="resume__description">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                         Distinctio aperiam asperiores voluptatum, nisi pariatur sed iusto eveniet maxime delectus.
+                                          Porro minus cupiditate sint reprehenderit! Labore nulla dolor exercitationem tempore optio!
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            
+                            <div class="resume__item">
+                                <div class="resume__header">
+                                    <h3 class="resume__subtitle">
+                                        CoderHOuse Course
+                                    </h3>
+                                    <span class="resume__icon">
+                                        +
+                                    </span>
+                                </div>
+                                <div class="resume__content">
+                                    <div class="resume__date-title">
+                                        <h3 class="resume__title">python Programming</h3>
+                                        <span class="resume__date">2020-2023</span>
+                                    </div>
+                                    <p class="resume__description">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                         Distinctio aperiam asperiores voluptatum, nisi pariatur sed iusto eveniet maxime delectus.
+                                          Porro minus cupiditate sint reprehenderit! Labore nulla dolor exercitationem tempore optio!
+                                    </p>
+                                </div>
+
+                            </div>
+                           
+                        </div>
+                    </div> -->
+<!-- ==========================================================EXPERIENCE--END======================================================================== -->
+                </div>
+            </section>
+ <!-- ===========================================================SERVICES============================================================================= -->
+          <!-- <section class="Services section" id="Services">
+            <h2 class="section__title title-center" data-title="Services">
+                What I do for you
+            </h2>
+            <div class="services__container container grid">
+                <div class="services__item">
+                <i class="fa-solid fa-pen-to-square services__icon"></i>
+                <h3 class="services__title">AAAAAAA</h3>
+                <p class="services__description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.Reiciendis eveniet obcaecati 
+                </p>
+                     <span class="services__number">01</span>
+                </div>
+                <div class="services__item">
+                    <i class="fa-solid fa-pen-to-square services__icon"></i>
+                    <h3 class="services__title">AAAAAAA</h3>
+                    <p class="services__description">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.Reiciendis eveniet obcaecati 
+                    </p>
+                         <span class="services__number">01</span>
+                    </div>
+                    <div class="services__item">
+                        <i class="fa-solid fa-pen-to-square services__icon"></i>
+                        <h3 class="services__title">AAAAAAA</h3>
+                        <p class="services__description">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.Reiciendis eveniet obcaecati 
+                        </p>
+                             <span class="services__number">01</span>
+                        </div>
+                        <div class="services__item">
+                            <i class="fa-solid fa-pen-to-square services__icon"></i>
+                            <h3 class="services__title">AAAAAAA</h3>
+                            <p class="services__description">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit.Reiciendis eveniet obcaecati 
+                            </p>
+                                 <span class="services__number">01</span>
+                            </div>
+                            <div class="services__item">
+                                <i class="fa-solid fa-pen-to-square services__icon"></i>
+                                <h3 class="services__title">AAAAAAA</h3>
+                                <p class="services__description">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.Reiciendis eveniet obcaecati 
+                                </p>
+                                     <span class="services__number">01</span>
+                                </div>
+                                <div class="services__item">
+                                    <i class="fa-solid fa-pen-to-square services__icon"></i>
+                                    <h3 class="services__title">AAAAAAA</h3>
+                                    <p class="services__description">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.Reiciendis eveniet obcaecati 
+                                    </p>
+                                         <span class="services__number">01</span>
+                                    </div>
+            </div>
+
+
+            
+
+
+
+            
+            
+            
+          </section> -->
+ <!-- ============================================================SKILLS========================================================================================> -->
+            <section class="skills section" id="Skills" >
+                <h2 class="section__title title-center" data-title="My Talent">Professional Skills</h2>
+                <div class="skills__container container grid">
+                    <div class="skills__item">
+                        <div class="skills__titles"><h3 class="skill__name own_color">JAVA</h3>
+                            <span class="skills__no">50%</span>
+                        </div>
+                        <p class="skills__description">Passionate in Java programming, gaining expertise at Techveel for software development foundations. </p>
+                        <div class="skills__bar">
+                            <div class="skills__percentage cls1">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills__item">
+                        <div class="skills__titles"><h3 class="skill__name own_color">HTML</h3>
+                            <span class="skills__no">95%</span>
+                        </div>
+                        <p class="skills__description">Learned HTML independently through YouTube, showcasing practical web development skills.</p>
+                        <div class="skills__bar">
+                            <div class="skills__percentage cls2">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__item">
+                        <div class="skills__titles"><h3 class="skill__name own_color">CSS</h3>
+                            <span class="skills__no">95%</span>
+                        </div>
+                        <p class="skills__description">Learned CSS independently through YouTube, showcasing practical web development skills.</p>
+                        <div class="skills__bar">
+                            <div class="skills__percentage cls3">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__item">
+                        <div class="skills__titles"><h3 class="skill__name own_color">SQL</h3>
+                            <span class="skills__no">70%</span>
+                        </div>
+                        <p class="skills__description">Mastered SQL through self-learning via YouTube and free resources, showcasing strong skills in effective database management.</p>
+                        <div class="skills__bar">
+                            <div class="skills__percentage cls4">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__item">
+                        <div class="skills__titles"><h3 class="skill__name own_color">JAVA SCRIPT</h3>
+                            <span class="skills__no">90%</span>
+                        </div>
+                        <p class="skills__description">Learned JavaScript independently through YouTube, gaining practical programming skills for web development</p>
+                        <div class="skills__bar">
+                            <div class="skills__percentage cls5">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__item">
+                        <div class="skills__titles"><h3 class="skill__name own_color"> SDLC & SELENIUM</h3>
+                            <span class="skills__no">90%</span>
+                        </div>
+                        <p class="skills__description">Acquired Software development life cycle knowledge and Selenium skills under the guidance of an industry expert mentor.
+                            <br></p>
+                        <div class="skills__bar">
+                            <div class="skills__percentage cls6">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+<!--=============================================================portfolio================================================================== -->
+            <section class="works section" id="portfolio">
+                <h2 class="section__title title-center" data-title="MY Projects">Recent Works</h2>
+                <div class="work__container  container grid">
+                    <div class="work__card">
+                        <img src="p1.jpg" alt="" class="work__img" width="400" height="200">
+                        <div class="work__details">
+                            <h3 class="work__title">project</h3>
+                            <span class="work__description">In Progress</span>
+                        </div>
+                    </div>
+
+                    <div class="work__card">
+                        <img src="p2.jpg" alt="" class="work__img" width="400" height="200">
+                        <div class="work__details">
+                            <h3 class="work__title">project</h3>
+                            <span class="work__description">In Progress</span>
+                        </div>
+                    </div>
+
+                    <div class="work__card">
+                        <img src="p3.jpg" alt="" class="work__img" width="400" height="200">
+                        <div class="work__details">
+                            <h3 class="work__title">project</h3>
+                            <span class="work__description">In Progress</span>
+                        </div>
+                    </div>
+
+                    <div class="work__card">
+                        <img src="p4.jpg" alt="" class="work__img" width="400" height="200">
+                        <div class="work__details">
+                            <h3 class="work__title">project</h3>
+                            <span class="work__description">In Progress</span>
+                        </div>
+                    </div>
+
+                    <div class="work__card">
+                        <img src="p5.jpg" alt="" class="work__img" width="400" height="200">
+                        <div class="work__details">
+                            <h3 class="work__title">project</h3>
+                            <span class="work__description">In Progress</span>
+                        </div>
+                    </div>
+
+                    <div class="work__card">
+                        <img src="p6.jpg" alt="" class="work__img" width="400" height="200">
+                        <div class="work__details">
+                            <h3 class="work__title">project</h3>
+                            <span class="work__description">In Progress</span>
+                        </div>
+                    </div>
+                </div>
+
+                
+            
+            </section>
+<!--============================================================TESTMONIALS================================================================-->
+            <!-- <section class="testmonials section">
+                <h2 class="section__title title-center" data-title="TESTMONIALS">What My Client Says !
+                </h2>
+                <div class="testmonials__container container grid ">
+                    <div class="testmonials__item">
+                        <p class="testmonials__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Rerum veniam voluptatibus modi iusto maiores ab quas obcaecati eligendi nulla aspernatur 
+                            doloremque numquam beatae dolore inventore quod, nisi iste debitis quo?</p>
+                        <div class="testmonials__data">
+                            <img src="p1.jpg" alt="" class="testmonials__img">
+                            <div><h3 class="testmonials__name">zzzzzzz</h3>
+                            <span class="testmonials__identity">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, ducimus!</span></div>
+                        </div>
+                    </div>
+
+                    <div class="testmonials__item">
+                        <p class="testmonials__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Rerum veniam voluptatibus modi iusto maiores ab quas obcaecati eligendi nulla aspernatur 
+                            doloremque numquam beatae dolore inventore quod, nisi iste debitis quo?</p>
+                        <div class="testmonials__data">
+                            <img src="/image/p1.jpg" alt="" class="testmonials__img">
+                            <div><h3 class="testmonials__name">zzzzzzz</h3>
+                            <span class="testmonials__identity">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo, doloremque.</span></div>
+                        </div>
+                    </div>
+
+                </div>
+            </section> -->
+ <!--=============================================================CONTACT=====================================================================================================-->
+            <section class="contact section" id="contacts">
+                <h2 class="section__title title-center" data-title="GET IN TOUCH">CONTACT ME
+                </h2>
+                <div class="contact__container container grid">
+                    <div class="contact__details">
+                        <div class="contact__item">
+                            <i class="fa-solid fa-phone contact__icon"></i>
+
+                            <div> 
+                                <h3 class="contact__title"> Call Us</h3>
+                                <span class="contact__data">+91 8189976362</span>
+                            </div>
+                        </div>
+                    
+
+                        <div class="contact__item">
+                            <i class="fa-solid fa-envelope contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">
+                                    Email Us
+                                </h3>
+                                <span class="contact__data">
+                                   contactnaveenoffl@gmail.com
+                                </span>
+                            </div>
+                        </div>
+                        <div class="contact__item">
+                            <i class="fa-solid fa-location-dot contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">
+                                    Address 
+                                </h3>
+                                <span class="contact__data">
+                                  Chennai-600068,India
+                                </span>
+                            </div>
+                        </div>
+                   </div>
+
+                   <form action="https://api.web3forms.com/submit" method="POST" class="contact__form">
+                    <input type="hidden" name="access_key" value="4df645ff-a3da-4a84-97cd-cdf0f7be3ef2">
+                    
+                    <div class="form__group">
+                 
+                      <div class="form__input">
+                        
+                        <input type="text"  name="name" placeholder="Name"class="input__control">
+                      </div>
+
+                      <div class="form__input">
+                        
+                        <input type="email"  name="email" placeholder="Your Email"class="input__control">
+                      </div>
+                    </div>
+                    
+                    <div class="form__input">
+                        
+                        <input type="text" name="Subject"  placeholder="Subject"class="input__control">
+                    </div>
+                    <div class="form__input">
+                        
+                     <textarea name="Message"  placeholder="Message" cols="30" rows="10"  class="input__control textarea"></textarea>
+                    </div>
+                   
+                    <button class="btn contact__btn">Send Message</button>
+                   
+                   </form>
+                </div>  
+            </section>
+        </main>
+        <!--======================================================<footer>=======================================================================-->
+      <footer class="footer ">
+        <div class="footer__container container">
+                      <p class="footer__copyright">&copy; 2024 Naveen.All Rigthts Reserved</p>
+                      <div class="footer__social-links">
+                        <a href="https://github.com/Naveenviji" class="footer__social-link">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/thestunning_naveen/" class="footer__social-link">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://leetcode.com/naveenr13062003/" class="footer__social-link">
+                            <i class="fa-brands fa-hackerrank"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/contactnaveenoffl/" class="footer__social-link">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+        </div>
+     </footer>
+</body>
+</html>
